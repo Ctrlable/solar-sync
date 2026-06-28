@@ -1,0 +1,19 @@
+{
+  "domain": "solar_sync",
+  "name": "Solar Sync",
+  "codeowners": [
+    "@Ctrlable"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "light",
+    "panel_custom"
+  ],
+  "documentation": "https://github.com/Ctrlable/solar-sync#readme",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/Ctrlable/solar-sync/issues",
+  "requirements": [
+    "ulid-transform"
+  ],
+  "version": "2.0.0"
+}
