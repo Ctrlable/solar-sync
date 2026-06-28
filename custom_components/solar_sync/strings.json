@@ -131,7 +131,7 @@
     },
     "error": {
       "option_error": "Invalid option",
-      "entity_missing": "One or more selected light entities are missing from Home Assistant"
+      "entity_missing": "One or more selected light entities are missing from Ctrlable Pro"
     }
   },
   "services": {
@@ -200,7 +200,7 @@
           "name": "use_defaults"
         },
         "include_config_in_attributes": {
-          "description": "Show all options as attributes on the switch in Home Assistant when set to `true`. 📝",
+          "description": "Show all options as attributes on the switch in Ctrlable Pro when set to `true`. 📝",
           "name": "include_config_in_attributes"
         },
         "turn_on_lights": {
