@@ -1,6 +1,3 @@
-[![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
-![Version](https://img.shields.io/github/v/release/Ctrlable/solar-sync?style=for-the-badge)
-
 # Solar Sync
 
 **Lighting that follows the sun.** Solar Sync continuously tunes the brightness and
@@ -33,26 +30,7 @@ where they should be, minute to minute.
 
 ## Installation
 
-Solar Sync installs as a **custom repository** in HACS.
-
-1. In HACS, open the **⋮** menu → **Custom repositories**.
-2. Add `https://github.com/Ctrlable/solar-sync` with category **Integration**.
-3. Download **Solar Sync**, then restart Ctrlable Pro.
-4. Go to **Settings → Devices & Services → Add Integration** and choose **Solar Sync**.
-5. Enter your Solar Sync license key when prompted.
-
-A bundled dashboard card (`solar-sync-config-card`) is served automatically. Add it
-once under **Settings → Dashboards → Resources** as a JavaScript module:
-
-```
-/solar_sync/www/solar-sync-config-card.js
-```
-
-then drop it on any dashboard:
-
-```yaml
-type: custom:solar-sync-config-card
-```
+Install **Solar Sync** from the **Ctrlable Store** on your appliance (sidebar → **Ctrlable Store** → Solar Sync → **Install**), then restart. A Solar Sync license (from the Ctrlable portal) is required to run it.
 
 ## What you get
 
